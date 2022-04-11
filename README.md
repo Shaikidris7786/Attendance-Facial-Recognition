@@ -13,7 +13,7 @@ Restart system after each step.
 
 Libraries used
 
-•	Cmake – Install from CMake.org . After installation, set the path to CMake/bin . After doing that, install cmake through cmd using the command – pip install cmake
+•	Cmake – Install from https://CMake.org . After installation, set the path to CMake/bin . After doing that, install cmake through cmd using the command – pip install cmake
 
 •	Face-recognition – Install this library from GitHub from ageitgey’s repository face_recognition using the link https://github.com/ageitgey/face_recognition.git . This link should be git clone at a different location. After downloading the clone, move into the face_recognition folder in cmd and run the command – python setup.py install  
 The usage is import face_recognition.
