@@ -1,0 +1,55 @@
+:root {
+  background: #7F7FD5;
+  /* fallback for old browsers */
+  background: -webkit-gradient(linear, left top, right top, from(#91EAE4), color-stop(#86A8E7), to(#7F7FD5));
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.form-submit {
+  font-size: inherit;
+  margin: .3rem 0;
+  background: #b9ffff;
+  -webkit-box-shadow: 2px 2px 2px #eee;
+          box-shadow: 2px 2px 2px #eee;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  width: 20%;
+  height: 3rem;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.form-submit:hover {
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  background: #016ABC;
+  color: #fff;
+  -webkit-box-shadow: 5px 5px 5px #2a2e35;
+          box-shadow: 5px 5px 5px #2a2e35;
+}
+
+.input-control {
+  font-size: inherit;
+  border-radius: 15px;
+  padding: .6rem .8rem;
+  margin: .1rem 0;
+  width: 40%;
+  background-color: #2a2e35;
+  -webkit-box-shadow: 5px 5px 5px #eee;
+          box-shadow: 5px 5px 5px #eee;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */

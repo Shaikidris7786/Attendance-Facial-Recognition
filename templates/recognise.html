@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Facial Recognition</title>
+{% endblock %}    
+
+{% block body %}
+    <h1>Start Facial Recognition!</h1>
+    <form action="#" method="POST">
+        <p><input class = "form-submit" type="submit" value="Start Camera" name="Start Camera" /></p>
+    </form>
+    <h2>Instructions for capturing the attendance!</h2>
+    <h2>Hit Escape for exiting</h2>
+    <h2>Hit Spacebar for marking attendance and Bring in the next Student</h2>
+
+    <form style="margin-top: 5rem" action="{{url_for('index')}}">
+        <p><input class = "form-submit" type="submit" value="Go to Home"/></p>
+    </form>
+{% endblock %}
