@@ -15,6 +15,8 @@ Install Visual studio from internet with C++ Dev Tools, make sure that C++ CMake
 
 Restart system after each step.
 
+Delete the Idris pic from /images after cloning this repository and then execute
+
 Libraries used
 
 •	Cmake – Install from [Cmake](https://CMake.org). After installation, set the path to CMake/bin . After doing that, install cmake through cmd using the command – pip install cmake
