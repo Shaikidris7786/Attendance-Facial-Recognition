@@ -155,6 +155,7 @@ def recognise():
 
 @app.route('/attendance')
 def attendance():
+    Attendance = {}
     with open('details.csv','r') as det:
         dataList = det.readlines()
         nameList = []
@@ -163,7 +164,7 @@ def attendance():
             nameList.append(entry[0])
             Attendance = dict.fromkeys(nameList,0)
     Counter = 0
-    for path, currentDirectory, files in os.walk("D:\Sumukhi\Attendance System using Flask"):
+    for path, currentDirectory, files in os.walk(os.getcwd()):
         for file in files:
             if file.startswith("Attendance"):
                 with open(file,'r') as att:

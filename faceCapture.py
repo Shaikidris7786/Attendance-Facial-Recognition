@@ -32,7 +32,7 @@ def putAttendance(name):
     Hour = time_now.strftime('%H%M')
     dStr = time_now.strftime('%d-%m-%Y')
     csvFile = 'Attendance-'+Hour+'-'+dStr+'.csv'
-    with open(csvFile, 'w+') as f:
+    with open(csvFile, 'a+') as f:
         dataList = f.readlines()
         nameList = []
         attendCount = []
